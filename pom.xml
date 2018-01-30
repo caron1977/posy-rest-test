@@ -1,14 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>de.fhws</groupId>
-		<artifactId>posy</artifactId>
-		<version>3.7.1</version>
-	</parent>
+	<groupId>de.fhws</groupId>
 	<artifactId>posy-rest-test</artifactId>
+	<version>3.7.1</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 
 	<dependencies>
-	
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -16,7 +18,7 @@
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- apache commons io -->
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -24,23 +26,22 @@
 			<version>2.5</version>
 			<scope>test</scope>
 		</dependency>
-		
-		<!-- jackson's json provider 
+
+		<!-- jackson's json provider -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.jaxrs</groupId>
 			<artifactId>jackson-jaxrs-json-provider</artifactId>
 			<version>2.3.2</version>
 			<scope>test</scope>
 		</dependency>
-		-->
-		
+
 		<dependency>
-		  <groupId>org.glassfish</groupId>
-		  <artifactId>javax.json</artifactId>
-		  <version>1.0.4</version>
-		  <scope>test</scope>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.json</artifactId>
+			<version>1.0.4</version>
+			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-client</artifactId>
