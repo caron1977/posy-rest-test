@@ -1,6 +1,3 @@
-README
-======
-
 # How to call rest services using a shell 
 
 ## prerequisites for windows
