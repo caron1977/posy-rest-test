@@ -1,0 +1,25 @@
+{
+	"message": "PosyApiCompositeException [message =null]",
+	"exceptions": [
+		{
+			"message": "PosyApiScheduleException [course=BEC, examCatalogId=6100200]",
+			"exceptions": [
+				{
+					"message": "310. Doppelte Studenten in dieser Erfassung. duplicates: [5314052, 6114076]"
+				}
+			],
+			"course": "BEC",
+			"examCatalogId": "6100200"
+		},
+		{
+			"message": "PosyApiScheduleException [course=BWI, examCatalogId=5001310]",
+			"exceptions": [
+				{
+					"message": "300. Dieser Student existiert nicht im CMS. matnr: 1234567"
+				}
+			],
+			"course": "BWI",
+			"examCatalogId": "5001310"
+		}
+	]
+}

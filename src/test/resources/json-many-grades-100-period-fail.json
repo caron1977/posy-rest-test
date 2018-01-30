@@ -1,0 +1,41 @@
+{
+	"examPeriod": {
+		"semestercode": 992
+	},
+	"examSchedules": [
+		{
+			"course": "BEC",
+			"examCatalogId": "6100200",
+			"examGradeType": "DN",
+			"grades": [
+				{
+					"matnr": "6114076",
+					"examGradeType": "DN",
+					"grade": "1,3"
+				},
+				{
+					"matnr": "5314052",
+					"examGradeType": "DN",
+					"grade": "2,7"
+				}
+			]
+		},
+		{
+			"course": "BWI",
+			"examCatalogId": "5001310",
+			"examGradeType": "DN",
+			"grades": [
+				{
+					"matnr": "5016070",
+					"examGradeType": "DN",
+					"grade": "1,3"
+				},
+				{
+					"matnr": "5015091",
+					"examGradeType": "DN",
+					"grade": "4,0"
+				}
+			]
+		}
+	]
+}

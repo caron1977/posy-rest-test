@@ -1,0 +1,24 @@
+{
+	"examPeriod": {
+		"semestercode": 172
+	},
+	"examSchedules": [
+		{
+			"course": "BEC",
+			"examCatalogId": "6100200",
+			"examGradeType": "DN",
+			"grades": [
+				{
+					"matnr": "6114076",
+					"examGradeType": "DN",
+					"grade": "3,3"
+				},
+				{
+					"matnr": "5314052",
+					"examGradeType": "DN",
+					"grade": "3,3"
+				}
+			]
+		}
+	]
+}
