@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.fhws</groupId>
 	<artifactId>posy-rest-test</artifactId>
-	<version>3.7.1</version>
+	<version>1.2.3</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
